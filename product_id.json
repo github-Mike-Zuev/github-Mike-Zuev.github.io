@@ -1,0 +1,72 @@
+[
+    {
+     "id": "1",
+     "title": "iPhone 1",
+     "description": "Краткое описание смартфона 1",
+     "price": 40000,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "2",
+     "title": "iPhone 2",
+     "description": "Краткое описание смартфона 2",
+     "price": 40001,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "3",
+     "title": "iPhone 3",
+     "description": "Краткое описание смартфона 3",
+     "price": 40002,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "4",
+     "title": "iPhone 4",
+     "description": "Краткое описание смартфона 4",
+     "price": 40003,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "5",
+     "title": "iPhone 5",
+     "description": "Краткое описание смартфона 5",
+     "price": 40004,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "6",
+     "title": "iPhone 6",
+     "description": "Краткое описание смартфона 6",
+     "price": 40005,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "7",
+     "title": "iPhone 7",
+     "description": "Краткое описание смартфона 7",
+     "price": 40006,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "8",
+     "title": "iPhone 8",
+     "description": "Краткое описание смартфона 8",
+     "price": 40007,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "9",
+     "title": "iPhone 9",
+     "description": "Краткое описание смартфона 9",
+     "price": 40008,
+     "img": "/img/iphone-1.png"
+    },
+    {
+     "id": "10",
+     "title": "iPhone 10",
+     "description": "Краткое описание смартфона 10",
+     "price": 40009,
+     "img": "/img/iphone-1.png"
+    }
+   ]
