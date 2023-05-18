@@ -1,0 +1,76 @@
+/* копипаст из products/products.module.css */
+
+.products_sect{
+    /* max-width: 1200px;
+    height: 1200px; */
+    margin: 0 auto;
+
+    background:linear-gradient(30deg, #e91e63, #2196f3,goldenrod, yellow) ;
+  }
+  
+  .products_sect h2{
+    text-align: center;
+  }
+  
+  .products{
+    font-size: 28px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+  .search{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: 1fr 0,8fr;
+    align-items:baseline;
+    justify-items: start;
+  }
+
+   .search h2{
+    padding-right: 10%;
+    justify-self: end;
+  }
+  .search_block {
+    /* justify-self: center; */
+     width:100%;
+    margin-bottom: 60px;
+  }
+  .search_block:focus-within {
+    /* box-shadow: 1px 1px 1px black; */
+    width: 90%;
+    margin-bottom: 5px;
+    grid-column: 1/3;
+    /* grid-row: 2/3; */
+  }
+  .search_block input:hover {
+    background: linear-gradient(goldenrod, gold, greenyellow);
+  }
+   .search_block input {
+    width: 15%;
+    padding: 5px;
+    margin-right: 15px;
+    border-top: none;
+    border-radius: 10px 50px 10px 50px;
+    transition: all 1s cubic-bezier(0.45, 0.57, 0.9,-1.42);
+    /* transition: all 1s cubic-bezier(0, 1.24, 0.53, 1.7); */
+    box-shadow: 1px 1px 10px green;
+    background-color: lightgreen;
+   }
+  .search_block input:focus {/*focus-visible*/
+    width: 80%;
+    outline: none;
+    border: none; /* outline: none; */
+    border-bottom: 2px solid red;
+    border-radius: 50px 5px 50px 5px ;
+    background-color: gold;
+    box-shadow: 1px 3px 10px 10px gold;
+    font: 800 20px "Arial" ;
+    color: brown ;
+  }
+  /* .search_block input:focus-visible {  background-color: violet;} */
+
+  .search_block img{
+     margin: 0px 5px;
+     width: 15px;
+   } 
+  

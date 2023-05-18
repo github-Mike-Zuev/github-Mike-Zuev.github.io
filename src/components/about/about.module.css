@@ -1,0 +1,12 @@
+.about {
+    font: lighter italic 20px "Arial", sans-serif;
+    text-indent: 18pt;
+    line-height: 20pt;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about h2{
+     text-align: center;
+    
+  }

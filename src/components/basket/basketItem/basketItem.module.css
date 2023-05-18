@@ -1,0 +1,43 @@
+.basketItem{
+display: grid;
+grid-template-columns: 1fr 8fr .5fr;
+align-items: center;
+margin: 0px 1% 2% 1%; 
+border: 2px solid grey;
+border-radius: 10px;
+
+
+}
+.basketImgItem{
+    padding-left: 5%;
+    width: 60%;
+}
+.basketTitleItem{
+padding-left: 2%;
+
+}
+.basketPriceItem{
+padding-left: 4%;
+}
+.btnCloseBasketItem{
+   margin: auto; /* margin-right: 30%; */
+    font-weight: 800;
+
+}
+.btnCloseBasketItem:hover{
+    /* position: absolute; смещение вниз при полосе прокрутки */
+    position: relative; /* моргание-смещение на нижнем элемените когда их много  */
+    right: -3%;
+    align-self: right;
+    grid-column: span 4;
+    top: -350%;
+    color: aqua;
+    height: 350%;
+    width: 95%;
+    cursor:pointer;
+    background-color:rgba(111, 24, 24, 0.923);
+    box-shadow: -10px 0px 40px 40px rgb(164 8 8 / 92%);
+    border: none;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,134 @@
+.btn_fav_off{
+    transition: all 1s cubic-bezier(0, 1.24, 0.53, 1.7);
+    transition-duration: .9s;
+    transition-delay: .9s;
+    justify-self: start;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40%;
+    font-weight:800;
+    width: 40%;
+    border-radius: 20px 5px 0px 5px;
+    color: blue;
+    /* background: none; */
+    background: radial-gradient(sandybrown, yellow, gold, red, deeppink, brown );
+    background-color: blue;
+    text-shadow: none;
+}
+
+.btn_fav_off:hover{
+    cursor: pointer;
+    background: radial-gradient(aquamarine,  lime,springgreen, darkgreen );
+    transition: all 1s cubic-bezier(0, 1.24, 0.53, 1.7);
+    /* transition: all 1s cubic-bezier(0.45, 0.57, 0.9,-1.42); */
+    transition-duration: .39s;
+    transition-delay: .29s;
+    justify-self: stretch;
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 700;
+    text-shadow: 6px 1px 5px green;
+    width: 90%;
+    border-radius: 27px 27px 0px 0px;
+    color: greenyellow;
+    background-color: blue;
+}
+
+.btn_fav_in{
+    cursor: pointer;
+    background: radial-gradient(aquamarine,  lime,springgreen, darkgreen );
+    transition: all 1s cubic-bezier(0, 1.24, 0.53, 1.7);
+    transition-duration: 1.9s;
+    transition-delay: 1.9s;
+    justify-self: end;
+    padding: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40%;
+    font-weight:800;
+    width: 40%;
+    border-radius: 5px 20px 5px 0px ;
+    color: brown;
+}
+
+.btn_fav_in:hover{
+    cursor: pointer;
+    background: radial-gradient(sandybrown, yellow, gold, red, deeppink, brown );
+    transition-duration: .39s;
+    transition-delay: .29s;
+    justify-self: end;
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 700;
+    text-shadow: 6px 1px 5px green;
+    width: 90%;
+    border-radius: 27px 27px 0px 0px;
+    color: greenyellow;
+    background-color: blue;
+}
+
+.btn_add {
+    justify-self: center;
+    background:linear-gradient( firebrick, orange , red );
+    /* background-color: white; */
+    border: 2px solid gray;
+    border-radius: 1px;
+    margin: auto; /* margin: 2px; */
+    width: 71px;
+    padding: 7px;
+    cursor: pointer;
+    transition: all 2s;
+  }
+
+  .btn_added{
+    justify-self: center;
+    background-color: lime;
+    border: 2px solid gold;
+    border-radius: 100px;
+    margin: auto;/* margin: 2px; */
+    padding: 7px;
+    cursor: pointer;
+    transition: all 2s;
+  }
+  
+  .btn_add img, .btn_added img{
+    width: 50px;
+    transition: all 1s;
+    /* transition-property: transform;
+    transition-duration: 2s; */
+  }
+
+  .btn_add:hover{
+    transform:rotate(-720deg);
+    background:linear-gradient( aquamarine, darkgreen,lightgreen  );
+     /* color:crimson ; */
+    border-radius: 100px;
+    /* margin: auto; */
+    transition: all 7s;
+    
+  }
+  .btn_add img:hover{
+    background:linear-gradient( aquamarine, darkgreen,lightgreen  );
+    /* background:linear-gradient(lime,darkgreen, springgreen ); */
+    width: 50px;
+    transition: all 4s;
+    border-radius: 100px;
+    transform:rotate(1440deg);
+  }
+  .btn_added:hover{
+    background-color: crimson ;
+    /* background:radial-gradient(orange , red , firebrick ); */
+       transition: all 1s;
+    border-radius: 1px;
+  }
+  .btn_added img:hover{
+    transform:rotate(-180deg);
+    width: 50px;
+    border-radius: 1px;
+    transition: all 5s;
+}
